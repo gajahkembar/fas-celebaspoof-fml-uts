@@ -1,0 +1,11 @@
+# data dan artefak besar
+CelebA_Spoof/
+*.zip
+*.zip.00*
+features.npz
+X224.npy
+*.pth
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.env
