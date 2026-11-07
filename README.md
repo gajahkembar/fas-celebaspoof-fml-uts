@@ -7,6 +7,14 @@ Laporan membandingkan dua pendekatan berbasis MobileNetV3-Small pada deteksi ser
 1. **CNN pretrained** (bobot ImageNet, tanpa training ulang, 576-d) dengan fusi fitur tekstur (LBP) dan frekuensi (FFT radial), diklasifikasikan Logistic Regression / Random Forest.
 2. **Fine-tuning end-to-end** MobileNetV3-Small.
 
+## Luaran UTS (Experiment, Video, Report)
+| Komponen | Lokasi |
+|---|---|
+| Experiment | notebook di folder `notebooks/` (repo ini) |
+| Video penjelasan (±8 menit) | https://drive.google.com/file/d/1Hm6THjHgLl39oRD-rWk_qWgj_BgYhIX7/view?usp=sharing |
+| Report (7 halaman, format Word dan PDF) | `report/Report_UTS_FML_P36.2026.00018.pdf` dan `.docx` |
+| Hasil Turnitin (similarity 2%) | `report/Turnitin_UTS_FML_P36.2026.00018.pdf` |
+
 ## Data
 Subset CelebA-Spoof (volume pertama arsip, sekitar 4 GB): 8.511 citra dari 79 subjek setelah audit.
 Dataset **tidak disertakan** di repo ini karena lisensinya milik pemilik dataset; unduh dari
